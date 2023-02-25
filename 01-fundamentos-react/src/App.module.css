@@ -14,6 +14,15 @@
 
     /* sidebar e posts sempre fiquem alinhados para o topo */
     align-items: flex-start;
+}
 
+/* Quando a tela for menor que 768px (tamanho legal para mobile) */
+@media (max-width: 768px) {
 
+    html {
+        font-size: 87.5%;
+    }
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
 }
